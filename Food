@@ -1,0 +1,27 @@
+#include<stdio.h>
+main()
+{
+    int code;
+    printf("enter the code:\n");
+    scanf("%d",&code);
+    switch (code)
+    {
+    case 1:
+    {
+        printf("Food item - pizza\n");
+        printf("Price -₹99\n");
+        break;
+    }
+    case 2:
+    {
+        printf("Food item -cola\n");
+        printf("Price -₹50\n");
+        break;
+    }
+    default:
+        printf("No Food item \n");
+        break;
+    }
+
+    return 0;
+}
